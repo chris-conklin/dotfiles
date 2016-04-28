@@ -1,12 +1,3 @@
-"============================================================================
-" Use arrow keys to navigate after a :vimgrep or :helpgrep
-"============================================================================
-
-    nmap <silent> <RIGHT>         :cnext<CR>
-    nmap <silent> <RIGHT><RIGHT>  :cnfile<CR><C-G>
-    nmap <silent> <LEFT>          :cprev<CR>
-    nmap <silent> <LEFT><LEFT>    :cpfile<CR><C-G>
-
 
 "============================================================================
 " Make :help appear in a full-screen tab, instead of a window
@@ -113,6 +104,11 @@
         endif
     endfunction
 
+
+"============================================================================
+" Set line numbers
+"============================================================================
+    set number
 
 "============================================================================
 " Set up a permanent universal vertical marker after 80 columns
