@@ -1,9 +1,9 @@
 #!/bin/bash
 alias ll="ls -lG"
 alias rmd="rm -rf"
-
+alias l='ls -CF'
 alias commit="git commit -m"
-
+alias c="clear"
 alias pushrepo="git push origin master"
 
 # for python virtualenvwrapper see evernote
