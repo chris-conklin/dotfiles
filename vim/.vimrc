@@ -2,7 +2,7 @@ set nocompatible          " get rid of Vi compatibility mode. SET FIRST!
 filetype plugin indent on " filetype detection[ON] plugin[ON] indent[ON]
 set t_Co=256              " enable 256-color mode.
 syntax enable             " enable syntax highlighting (previously syntax on).
-colorscheme desert        " set colorscheme
+colorscheme murphy        " set colorscheme
 set number                " show line numbers
 set laststatus=2          " last window always has a statusline
 filetype indent on        " activates indenting for files
@@ -19,3 +19,23 @@ set expandtab             " use spaces instead of tabs
 set smarttab              " use tabs at the start of a line, spaces elsewhere
 set nowrap                " don't wrap text
 set cursorline            " highlight the current line
+
+" :colorscheme blah to set or hardcode above
+" blue.vim
+" darkblue.vim
+" default.vim
+" delek.vim
+" desert.vim
+" delflord.vim
+" devening.vim
+" dkoehler.vim
+" dmorning.vim
+" dmurphy.vim
+" dpablo.vim
+" dpeachpuff.vim
+" dron.vim
+" dshine.vim
+" dslate.vim
+" dtorte.vim
+" dzellner.vim
+
